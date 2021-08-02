@@ -8,7 +8,7 @@ const { uploadToAzure } = require('./azure/fileUploader')
 const app = express()
 const port = process.env.PORT || 8888
 
-const upload = multer({dest: '/home/mathieu/Documents/inqli/faketerminal/uploads'})
+const upload = multer({dest: '/home/mathieu/Documents/inqli/azure-uploader/uploads'})
 
 // Express parser
 app.use(cors())
